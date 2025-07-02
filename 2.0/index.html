@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ristorante Pizzeria Il Mago a Vercelli - Specialità di mare e terra con autentico forno a legna">
+    <meta name="keywords" content="ristorante, pizzeria, Vercelli, forno a legna, specialità di mare, specialità di terra">
+    <meta name="author" content="CK8LAB">
+    <title>Il Mago - Specialità di Pesce e Carne con Forno a Legna| Vercelli</title>
+    
+    <!-- Preconnect per migliorare il caricamento delle risorse esterne -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <!-- Fogli di stile -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon (aggiungi il tuo file favicon nella cartella img) -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>IL MAGO</h1>
+            
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" id="closeMenu" aria-label="Chiudi menu"></i>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" id="openMenu" aria-label="Apri menu"></i>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Benvenuti <br>Ristorante Pizzeria Il Mago</h1>
+                <p>Specialità di Pesce e Carne con Forno a Legna</p>
+                <a href="menu.html" class="btn">Scopri il Menu</a>
+            </div>
+        </section>
+
+        <section class="about" style="background-color: #f8f9fa; padding: 4rem 0;">
+            <div class="container">
+                <h2 style="color: #2a2a72; text-align: center; margin-bottom: 1.5rem;">Il Nostro Ristorante</h2>
+                <div style="width: 60px; height: 3px; background-color: #2a2a72; margin: 0 auto 3rem auto;"></div>
+                
+                <!-- Card principale con immagine e testo -->
+                <div style="max-width: 1000px; margin: 0 auto; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                    <!-- Immagine del ristorante -->
+                    <div style="width: 100%; height: 300px; overflow: hidden;">
+                        <img src="img/ristorante facciata.png" alt="Il Mago Ristorante" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    
+                    <!-- Contenuto testuale -->
+                    <div style="background-color: white; padding: 2rem; color: #333;">
+                        <p style="font-size: 1.2rem; margin-bottom: 1rem; line-height: 1.6;">Benvenuti al Ristorante Pizzeria "Il Mago", situato a Vercelli in Corso Marcello Prestinari 42. Il nostro locale offre un'esperienza gastronomica unica grazie al nostro autentico forno a legna.</p>
+                        
+                        <p style="font-size: 1.2rem; margin-bottom: 1rem; line-height: 1.6;">Proponiamo un menu ricco con specialità di mare e di terra, e pizze preparate con ingredienti freschi e di qualità.</p>
+                        
+                        <p style="font-size: 1.2rem; line-height: 1.6;">Aperto tutti i giorni: <br> 10:30-15:00 | 18:00-24:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Nuova sezione Call-to-Action con mappa e bottoni -->
+        <section class="location-cta">
+            <div class="container">
+                <h2>Vieni a Trovarci</h2>
+                <div class="location-content">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.0885814779!2d8.418978!3d45.3235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a24320b1eb1%3A0x4e9f4e9b0f989b1!2sCorso%20Marcello%20Prestinari%2C%2042%2C%2013100%20Vercelli%20VC!5e0!3m2!1sit!2sit!4v1652345678901!5m2!1sit!2sit" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="tel:0161281270" class="cta-button">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>Chiama Ora</span>
+                        </a>
+                        <a href="https://www.google.com/maps/dir//Corso+Marcello+Prestinari,+42,+13100+Vercelli+VC" target="_blank" class="cta-button">
+                            <i class="fas fa-directions"></i>
+                            <span>Indicazioni Stradali</span>
+                        </a>
+                        <a href="https://www.justeat.it/restaurants-il-mago-ristorante-pizzeria-vercelli-13100/menu" target="_blank" class="cta-button">
+                            <i class="fas fa-utensils"></i>
+                            <span>Ordina su JustEat</span>
+                        </a>
+                        <a href="tel:3515638435" class="cta-button">
+                            <i class="fas fa-motorcycle"></i>
+                            <span>Ordina a Domicilio</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="special-offers">
+            <div class="container">
+                <h2>Le Nostre Offerte</h2>
+                <div class="offers-grid">
+                    <div class="offer-card">
+                        <h3>Menù Completo</h3>
+                        <p>Primo + secondo + contorno + bevanda + caffè</p>
+                        <div class="price">€ 10,00</div>
+                        <p class="note">A pranzo dal lunedì al sabato</p>
+                    </div>
+                    <div class="offer-card">
+                        <h3>Menù Primo</h3>
+                        <p>Primo + contorno + bevanda + caffè</p>
+                        <div class="price">€ 7,00</div>
+                        <p class="note">A pranzo dal lunedì al sabato</p>
+                    </div>
+                    <div class="offer-card">
+                        <h3>Menù Secondo</h3>
+                        <p>Secondo + contorno + bevanda + caffè</p>
+                        <div class="price">€ 8,00</div>
+                        <p class="note">A pranzo dal lunedì al sabato</p>
+                    </div>
+                    <div class="offer-card">
+                        <h3>Menù Pizza</h3>
+                        <p>Pizza + bevanda + caffè</p>
+                        <div class="price">€ 7,00</div>
+                        <p class="note">A pranzo dal lunedì al sabato</p>
+                    </div>
+                    <div class="offer-card highlight">
+                        <h3>Pizza a Volontà</h3>
+                        <p>Incluse bevande e caffè</p>
+                        <div class="price">€ 10,00</div>
+                        <p class="note">Tutte le sere (minimo 4 persone)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <h2>Le Nostre Specialità</h2>
+                <div class="gallery-grid specialita-grid">
+                    <div class="gallery-item card-effect">
+                        <img src="img/piatto1.webp" alt="Piatto di mare" width="350" height="250">
+                        <div class="card-caption">Piatto di mare</div>
+                    </div>
+                    <div class="gallery-item card-effect">
+                        <img src="img/piatto2.webp" alt="Pizza speciale" width="350" height="250">
+                        <div class="card-caption">Pizza speciale</div>
+                    </div>
+                    <div class="gallery-item card-effect">image.png
+                        <img src="img/piatto3.webp" alt="Antipasto misto" width="350" height="250">
+                        <div class="card-caption">Antipasto misto</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Orari di Apertura</h3>
+                    <p>Aperto tutti i giorni</p>
+                    <p>10:30 - 15:00 | 18:00 - 24:00</p>
+                </div>
+                <div class="footer-info">
+                    <h3>Contatti</h3>
+                    <p>Corso Marcello Prestinari, 42</p>
+                    <p>VERCELLI</p>
+                    <p>Tel: <a href="tel:0161281270" style="color: white;">0161.281270</a></p>
+                    <p>Cell: <a href="tel:3515638435" style="color: white;">351.5638435</a></p>
+                </div>
+                <div class="footer-info">
+                    <h3>Seguici</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-laimage.pngbel="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <p>Servizio consegna a domicilio</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 - <a style="color: white; font-weight: bolder;" href="https://ck8lab.github.io/kevincellura/">ck8lab</a>. Tutti i diritti riservati.</p>
+                <hr style="border-color: rgba(255,255,255,0.2); margin: 15px 0;">
+                <p style="display: flex; align-items: center; justify-content: center; gap: 15px; flex-direction: column;">
+                    <span style="font-size: 1.2rem;">Sviluppato da</span>
+                    <a style="color: white; font-weight: bolder; display: inline-block; text-decoration: none;" href="https://ck8lab.github.io/kevincellura/">
+                        <span style="background-color: #ffcc00; color: #2a2a72; padding: 6px 12px; border-radius: 4px; font-size: 1.5rem; letter-spacing: 1px;">CK8LAB</span>
+                    </a>
+                    <a style="color: white; font-size: 1rem; opacity: 0.9;" href="https://ck8lab.github.io/kevincellura/">https://ck8lab.github.io/kevincellura/</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

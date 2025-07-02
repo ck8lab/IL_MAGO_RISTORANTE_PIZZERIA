@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mago - Specialità di Pesce e Carne con Forno a Legna| Vercelli</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>IL MAGO</h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" id="closeMenu"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                </ul>
+                <!-- Categorie del menu per mobile -->
+                <div class="mobile-categories" id="mobileCategories">
+                    <!-- I bottoni delle categorie verranno generati qui dal JavaScript -->
+                </div>
+            </div>
+            <i class="fas fa-bars" id="openMenu"></i>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Benvenuti <br>Ristorante Pizzeria Il Mago</h1>
+            <p>Specialità di Pesce e Carne con Forno a Legna</p>
+            
+        </div>
+    </section>
+
+    <section class="menu-content">
+        <div class="container">
+            <div class="menu-categories desktop-categories" id="menuCategories">
+                <!-- I bottoni delle categorie per desktop verranno generati qui -->
+            </div>
+
+            <div id="menuContainer">
+                <!-- Le sezioni del menu verranno generate qui -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Orari di Apertura</h3>
+                    <p>Aperto tutti i giorni</p>
+                    <p>12:00 - 15:00 | 18:00 - 00:00</p>
+                </div>
+                <div class="footer-info">
+                    <h3>Contatti</h3>
+                    <p>Corso Marcello Prestinari, 42</p>
+                    <p>VERCELLI</p>
+                    <p>Tel: <a href="tel:0161281270" style="color: white;">0161.281270</a></p>
+                    <p>Cell: <a href="tel:3515638435" style="color: white;">351.5638435</a></p>
+                </div>
+                <div class="footer-info">
+                    <h3>Seguici</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <p>Servizio consegna a domicilio</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 - <a style="color: white; font-weight: bolder;" href="https://ck8lab.github.io/kevincellura/">ck8lab</a>. Tutti i diritti riservati.</p>
+                <hr style="border-color: rgba(255,255,255,0.2); margin: 15px 0;">
+                <p style="display: flex; align-items: center; justify-content: center; gap: 15px; flex-direction: column;">
+                    <span style="font-size: 1.2rem;">Sviluppato da</span>
+                    <a style="color: white; font-weight: bolder; display: inline-block; text-decoration: none;" href="https://ck8lab.github.io/kevincellura/">
+                        <span style="background-color: #ffcc00; color: #2a2a72; padding: 6px 12px; border-radius: 4px; font-size: 1.5rem; letter-spacing: 1px;">CK8LAB</span>
+                    </a>
+                    <a style="color: white; font-size: 1rem; opacity: 0.9;" href="https://ck8lab.github.io/kevincellura/">https://ck8lab.github.io/kevincellura/</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/menu-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
